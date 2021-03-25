@@ -1,5 +1,5 @@
 # RIDE: ROS IDE
-## RIDE automatically creates the package and boilerplate OOP Python node scripts as per your needs
+## RIDE automatically creates the package and boilerplate OOP Python code for nodes as per your needs
 
 
 ### (RIDE is not an IDE, but even ROS isn't an OS, so I guess it's... okay)
