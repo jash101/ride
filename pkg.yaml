@@ -1,0 +1,18 @@
+package_name: sample_hello
+dependencies: rospy std_msgs
+workspace_location: /home/ubuntu/catkin_ws
+nodes:
+  - name: hellopub
+    description: one line synopsis of your pkg, gets added in the script as well
+    rate: 10
+    pubs:
+      - topic: /chatter
+        msg_type: std_msgs/String
+      - topic: /different_topic
+        msg_type: std_msgs/Int8
+  - name: hellosub
+    description: this one subscribes to /chatter
+    rate: 10
+    subs:
+      - topic: /chatter
+        msg_type: std_msgs/String
