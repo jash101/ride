@@ -1,0 +1,24 @@
+package_name: #this is the package name
+dependencies: #appended after package_name when running catkin_create_pkg, keep it space separated.
+workspace_location: #path to workspace where you want the package to be.
+nodes:
+  - name: #name of the first node
+    description: one line synopsis of your node script
+    rate: #rospy rate.
+    pubs: #below all publishers for this node should be listed. add as many as you want
+      - topic: #topic at which pub0 should publish
+        msg_type: #msg_type of topic at which pub0 publishes
+      - topic: #topic at which pub1 should publish
+        msg_type: #msg_type of topic at which pub0 publishes
+    subs: #below all subscribers of this node should be listed. add as many as you want
+      - topic: #topic which sub0 subscribes to
+        msg_type: #message type of topic which sub0 subscribes to
+      - topic: 
+        msg_type: 
+  - name: #name of the second node
+    description: one line synopsis of your node script
+    rate: #rospy rate.
+    pubs: #below all publishers for this node should be listed. add as many as you want
+      - topic: #topic at which pub0 should publish
+        msg_type: #msg_type of topic at which pub0 publishes
+    #pubs and subs are optional params. This node only has 1 publisher and 0 subscribers
