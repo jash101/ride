@@ -11,6 +11,8 @@
 - edit node scripts, mainly subscriber callbacks and spin(), as per your requirements
 - that's it!
 
+**Video tutorial: https://youtu.be/9ne4PBRDXjs**
+
 ## Yaml parameters
 I've tried to keep the param names self explanatory. Also, you may take a look at sample.yaml.
 
